@@ -15,15 +15,3 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow-down:before {
-  content: "\e752";
-}
-
-.icon-arrow-lift:before {
-  content: "\e743";
-}
-
-.icon-chaxun:before {
-  content: "\e532";
-}
-

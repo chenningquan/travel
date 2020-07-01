@@ -12,9 +12,8 @@ import 'swiper/css/swiper.css'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
-Vue.use(VueAwesomeSwiper)
+Vue.use(VueAwesomeSwiper, /* { default options with global component } */)
 
-/* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
